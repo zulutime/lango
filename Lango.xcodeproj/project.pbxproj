@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0CCAF9921134F7000AD7E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCAF9821134F7000AD7E47 /* AppDelegate.swift */; };
+		C0CCAF9B21134F7000AD7E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCAF9A21134F7000AD7E47 /* ViewController.swift */; };
+		C0CCAF9E21134F7000AD7E47 /* Lango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0CCAF9C21134F7000AD7E47 /* Lango.xcdatamodeld */; };
+		C0CCAFA021134F7400AD7E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CCAF9F21134F7400AD7E47 /* Assets.xcassets */; };
+		C0CCAFA321134F7400AD7E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CCAFA121134F7400AD7E47 /* Main.storyboard */; };
+		C0CCAFAF21134F7500AD7E47 /* LangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCAFAE21134F7500AD7E47 /* LangoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0CCAFAB21134F7500AD7E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0CCAF8D21134F7000AD7E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0CCAF9421134F7000AD7E47;
+			remoteInfo = Lango;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C099305C211631E900CC4748 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		C0CCAF9521134F7000AD7E47 /* Lango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lango.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CCAF9821134F7000AD7E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0CCAF9A21134F7000AD7E47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0CCAF9D21134F7000AD7E47 /* Lango.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lango.xcdatamodel; sourceTree = "<group>"; };
+		C0CCAF9F21134F7400AD7E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0CCAFA221134F7400AD7E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0CCAFA421134F7400AD7E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CCAFA521134F7400AD7E47 /* Lango.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lango.entitlements; sourceTree = "<group>"; };
+		C0CCAFAA21134F7500AD7E47 /* LangoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CCAFAE21134F7500AD7E47 /* LangoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangoTests.swift; sourceTree = "<group>"; };
+		C0CCAFB021134F7500AD7E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0CCAF9221134F7000AD7E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CCAFA721134F7500AD7E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C099305B211631A200CC4748 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C099305C211631E900CC4748 /* Staging.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C0CCAF8C21134F7000AD7E47 = {
+			isa = PBXGroup;
+			children = (
+				C0CCAF9721134F7000AD7E47 /* Lango */,
+				C0CCAFAD21134F7500AD7E47 /* LangoTests */,
+				C0CCAF9621134F7000AD7E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0CCAF9621134F7000AD7E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCAF9521134F7000AD7E47 /* Lango.app */,
+				C0CCAFAA21134F7500AD7E47 /* LangoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0CCAF9721134F7000AD7E47 /* Lango */ = {
+			isa = PBXGroup;
+			children = (
+				C099305B211631A200CC4748 /* Config */,
+				C0CCAF9821134F7000AD7E47 /* AppDelegate.swift */,
+				C0CCAF9A21134F7000AD7E47 /* ViewController.swift */,
+				C0CCAF9F21134F7400AD7E47 /* Assets.xcassets */,
+				C0CCAFA121134F7400AD7E47 /* Main.storyboard */,
+				C0CCAFA421134F7400AD7E47 /* Info.plist */,
+				C0CCAFA521134F7400AD7E47 /* Lango.entitlements */,
+				C0CCAF9C21134F7000AD7E47 /* Lango.xcdatamodeld */,
+			);
+			path = Lango;
+			sourceTree = "<group>";
+		};
+		C0CCAFAD21134F7500AD7E47 /* LangoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCAFAE21134F7500AD7E47 /* LangoTests.swift */,
+				C0CCAFB021134F7500AD7E47 /* Info.plist */,
+			);
+			path = LangoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0CCAF9421134F7000AD7E47 /* Lango */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CCAFB321134F7500AD7E47 /* Build configuration list for PBXNativeTarget "Lango" */;
+			buildPhases = (
+				C0CCAF9121134F7000AD7E47 /* Sources */,
+				C0CCAF9221134F7000AD7E47 /* Frameworks */,
+				C0CCAF9321134F7000AD7E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lango;
+			productName = Lango;
+			productReference = C0CCAF9521134F7000AD7E47 /* Lango.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0CCAFA921134F7500AD7E47 /* LangoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CCAFB621134F7500AD7E47 /* Build configuration list for PBXNativeTarget "LangoTests" */;
+			buildPhases = (
+				C0CCAFA621134F7500AD7E47 /* Sources */,
+				C0CCAFA721134F7500AD7E47 /* Frameworks */,
+				C0CCAFA821134F7500AD7E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0CCAFAC21134F7500AD7E47 /* PBXTargetDependency */,
+			);
+			name = LangoTests;
+			productName = LangoTests;
+			productReference = C0CCAFAA21134F7500AD7E47 /* LangoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0CCAF8D21134F7000AD7E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Zuwo;
+				TargetAttributes = {
+					C0CCAF9421134F7000AD7E47 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					C0CCAFA921134F7500AD7E47 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C0CCAF9421134F7000AD7E47;
+					};
+				};
+			};
+			buildConfigurationList = C0CCAF9021134F7000AD7E47 /* Build configuration list for PBXProject "Lango" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0CCAF8C21134F7000AD7E47;
+			productRefGroup = C0CCAF9621134F7000AD7E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0CCAF9421134F7000AD7E47 /* Lango */,
+				C0CCAFA921134F7500AD7E47 /* LangoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0CCAF9321134F7000AD7E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CCAFA021134F7400AD7E47 /* Assets.xcassets in Resources */,
+				C0CCAFA321134F7400AD7E47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CCAFA821134F7500AD7E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0CCAF9121134F7000AD7E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CCAF9E21134F7000AD7E47 /* Lango.xcdatamodeld in Sources */,
+				C0CCAF9B21134F7000AD7E47 /* ViewController.swift in Sources */,
+				C0CCAF9921134F7000AD7E47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CCAFA621134F7500AD7E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CCAFAF21134F7500AD7E47 /* LangoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0CCAFAC21134F7500AD7E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0CCAF9421134F7000AD7E47 /* Lango */;
+			targetProxy = C0CCAFAB21134F7500AD7E47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0CCAFA121134F7400AD7E47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0CCAFA221134F7400AD7E47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0CCAFB121134F7500AD7E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C099305C211631E900CC4748 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0CCAFB221134F7500AD7E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C099305C211631E900CC4748 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C0CCAFB421134F7500AD7E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lango/Lango.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJPDU7WK9B;
+				INFOPLIST_FILE = Lango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zuwo.Lango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C0CCAFB521134F7500AD7E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lango/Lango.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJPDU7WK9B;
+				INFOPLIST_FILE = Lango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zuwo.Lango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C0CCAFB721134F7500AD7E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJPDU7WK9B;
+				INFOPLIST_FILE = LangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zuwo.LangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lango.app/Contents/MacOS/Lango";
+			};
+			name = Debug;
+		};
+		C0CCAFB821134F7500AD7E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJPDU7WK9B;
+				INFOPLIST_FILE = LangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zuwo.LangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lango.app/Contents/MacOS/Lango";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0CCAF9021134F7000AD7E47 /* Build configuration list for PBXProject "Lango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CCAFB121134F7500AD7E47 /* Debug */,
+				C0CCAFB221134F7500AD7E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CCAFB321134F7500AD7E47 /* Build configuration list for PBXNativeTarget "Lango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CCAFB421134F7500AD7E47 /* Debug */,
+				C0CCAFB521134F7500AD7E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CCAFB621134F7500AD7E47 /* Build configuration list for PBXNativeTarget "LangoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CCAFB721134F7500AD7E47 /* Debug */,
+				C0CCAFB821134F7500AD7E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0CCAF9C21134F7000AD7E47 /* Lango.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0CCAF9D21134F7000AD7E47 /* Lango.xcdatamodel */,
+			);
+			currentVersion = C0CCAF9D21134F7000AD7E47 /* Lango.xcdatamodel */;
+			path = Lango.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0CCAF8D21134F7000AD7E47 /* Project object */;
+}
